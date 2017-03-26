@@ -1,0 +1,50 @@
+{
+  "name": "modern-workflow-demo",
+  "version": "1.0.0",
+  "description": "TypeScript + Sass + Browserify + Gulp + Karma + BrowserSync workflow",
+  "main": "index.html",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dpitic/ts-book.git"
+  },
+  "keywords": [
+    "typescript",
+    "gulp",
+    "demo",
+    "example",
+    "browserify",
+    "karma"
+  ],
+  "author": "Dan Pitic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dpitic/ts-book/issues"
+  },
+  "homepage": "https://github.com/dpitic/ts-book#readme",
+  "devDependencies": {
+    "@types/jquery": "^2.0.41",
+    "browserify": "^14.1.0",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-karma": "0.0.5",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-tslint": "^7.1.0",
+    "gulp-typescript": "^3.1.6",
+    "gulp-uglify": "^2.1.2",
+    "karma": "^1.5.0",
+    "karma-chai": "^0.1.0",
+    "karma-coverage": "^1.1.1",
+    "karma-mocha": "^1.3.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-sinon": "^1.0.5",
+    "mocha": "^3.2.0",
+    "sinon": "^2.1.0",
+    "vinyl-transform": "^1.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

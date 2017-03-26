@@ -1,0 +1,31 @@
+{
+  "name": "modern-workflow-demo",
+  "description": "TypeScript + Sass + Browserify + Gulp + Karma + BrowserSync workflow",
+  "main": "index.html",
+  "authors": [
+    "Dan Pitic"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "typescript",
+    "gulp",
+    "demo",
+    "example",
+    "browserify",
+    "karma"
+  ],
+  "homepage": "https://github.com/dpitic/ts-book",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "jasmine-core": "jasmine#^2.5.2"
+  }
+}
